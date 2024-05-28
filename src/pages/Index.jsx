@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, HStack, Link, Text, VStack, Image, Divid
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg="#fff1e5">
       {/* Navigation Bar */}
       <Box bg="gray.800" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
